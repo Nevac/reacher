@@ -1,0 +1,32 @@
+{
+  "name": "reacher",
+  "version": "1.0.0",
+  "description": "A very simple server app to test if a server where it is hosted can be reached",
+  "main": "index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nevac/reacher.git"
+  },
+  "author": "Nevac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nevac/reacher/issues"
+  },
+  "homepage": "https://github.com/Nevac/reacher#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
